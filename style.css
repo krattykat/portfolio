@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url(./font/pixelmix.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #777;
+    background-color: rgb(0, 128, 0);
+}
+
+.mobile-nav-links, .mobile-logo {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 20px;
+    width: 33%;
+    list-style-type: none;
+}
+
+.logo {
+    padding: 10px 20px;
+}
+
+.logo a, .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Pixel';
+    font-weight: lighter;
+}
+
+.logo a:hover, .nav-links a:hover {
+    color: rgb(235, 232, 232);
+    transition: .2s;
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
+    font-family: 'Pixel';
+}
+
+.title h1 {
+    font-family: 'Pixel';
+    font-weight: lighter;
+}
+
+.indent {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 14px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 35px;
+}
+
+footer p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer a, footer li {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+footer a {
+    font-family: 'Pixel';
+    font-size: 12px;
+    border: 1px solid #777;
+    box-shadow: 5px 5px;
+    padding: 10px; 
+    background-color: green;
+}
+
+footer a:hover {
+    background-color: white;
+    color: green;
+    transition: .2s;
+}
+
+
+
+
